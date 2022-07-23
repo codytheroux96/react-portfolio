@@ -10,17 +10,17 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 
 function App() {
-  const [currentSection, setCurrentSection] = useState('About');
+  const [currentSection, setCurrentSection] = useState('about');
 
   const renderSection = () => {
     switch (currentSection) {
-      case 'About':
+      case 'about':
         return <About />;
-      case 'Portfolio':
+      case 'portfolio':
         return <Portfolio />;
-      case 'Resume':
+      case 'resume':
         return <Resume />;
-      case 'Contact':
+      case 'contact':
         return <Contact />;
       default:
         return null;

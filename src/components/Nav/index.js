@@ -6,17 +6,17 @@ function Nav (props) {
 	return (
 		<nav>
 			<ul className='flex-row mobile-view'>
-				<li className={currentSection === 'About' ? 'mx-2 navActive' : 'mx-2'}>
-					<span onClick={() => setCurrentSection('About')}>About Me</span>
+				<li className={currentSection === 'about' ? 'mx-2 navActive' : 'mx-2'}>
+					<span onClick={() => setCurrentSection('about')}>About Me</span>
 				</li>
-				<li className={currentSection === 'Portfolio' ? 'mx-2 navActive' : 'mx-2'}>
-					<span onClick={() => setCurrentSection('Portfolio')}>Portfolio</span>
+				<li className={currentSection === 'portfolio' ? 'mx-2 navActive' : 'mx-2'}>
+					<span onClick={() => setCurrentSection('portfolio')}>My Portfolio</span>
 				</li>
-				<li className={currentSection === 'Resume' ? 'mx-2 navActive' : 'mx-2'}>
-					<span onClick={() => setCurrentSection('Resume')}>Resume</span>
+				<li className={currentSection === 'resume' ? 'mx-2 navActive' : 'mx-2'}>
+					<span onClick={() => setCurrentSection('resume')}>My Resume</span>
 				</li>
-				<li className={currentSection === 'Contact' ? 'mx-2 navActive' : 'mx-2'}>
-					<span onClick={() => setCurrentSection('Contact')}>Contact</span>
+				<li className={currentSection === 'contact' ? 'mx-2 navActive' : 'mx-2'}>
+					<span onClick={() => setCurrentSection('contact')}>Contact Me</span>
 				</li>
 			</ul>
 		</nav>
