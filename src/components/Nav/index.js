@@ -25,10 +25,10 @@ import React from 'react';
 function Nav({ setCurrentSection }) {
   return (
     <div>
-      <a href="#home" onClick={() => setCurrentSection('home')}>Home</a>
       <a href="#about" onClick={() => setCurrentSection('about')}>About</a>
-      <a href="#contact" onClick={() => setCurrentSection('contact')}>Contact</a>
+      <a href="#portfolio" onClick={() => setCurrentSection('portfolio')}>Home</a>
       <a href="#resume" onClick={() => setCurrentSection('resume')}>Resume</a>
+      <a href="#contact" onClick={() => setCurrentSection('contact')}>Contact</a>
     </div>
   )
 }
