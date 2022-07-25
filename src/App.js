@@ -29,7 +29,7 @@ function App() {
 
   return (
 		<div>
-			<div className='Header'>
+			<div className='header'>
 				<Header currentSection={currentSection} setcurrentSection={setCurrentSection}></Header>
 			</div>
 			<div>
