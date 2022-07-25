@@ -3,13 +3,8 @@ import React from 'react';
 function Resume() {
   return (
 		<section>
-			<div className="center" id="about">
-				<h1 className="header">About Me</h1>
-			</div>
-			<div>
-				<p>
-				This is my react portfolio
-				</p>
+			<div className="center" id="resume">
+				<h1 className="header">My Resume</h1>
 			</div>
 		</section>
 	);

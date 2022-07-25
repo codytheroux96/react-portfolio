@@ -3,13 +3,8 @@ import React from 'react';
 function Contact() {
   return (
 		<section>
-			<div className="center" id="about">
-				<h1 className="header">About Me</h1>
-			</div>
-			<div>
-				<p>
-				This is my react portfolio
-				</p>
+			<div className="center" id="contact">
+				<h1 className="header">Contact Me</h1>
 			</div>
 		</section>
 	);

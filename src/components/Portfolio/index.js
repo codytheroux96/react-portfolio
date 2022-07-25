@@ -5,13 +5,8 @@ import React from 'react';
 function Portfolio() {
   return (
 		<section>
-			<div className="center" id="about">
-				<h1 className="header">About Me</h1>
-			</div>
-			<div>
-				<p>
-				This is my react portfolio
-				</p>
+			<div className="center" id="portfolio">
+				<h1 className="header">My Work</h1>
 			</div>
 		</section>
 	);
