@@ -9,39 +9,6 @@ import Portfolio from './components/Portfolio';
 //import Projects from './components/Projects';
 import Resume from './components/Resume';
 
-// function App() {
-//   const [currentSection, setCurrentSection] = useState('about');
-
-//   const renderSection = () => {
-//     switch (currentSection) {
-//       case 'about':
-//         return <About />;
-//       case 'portfolio':
-//         return <Portfolio />;
-//       case 'resume':
-//         return <Resume />;
-//       case 'contact':
-//         return <Contact />;
-//       default:
-//         return null;
-//     }
-//   };
-
-  // return (
-	// 	<div>
-	// 		<div className='header'>
-	// 			<Header currentSection={currentSection} setcurrentSection={setCurrentSection}></Header>
-	// 		</div>
-	// 		<div>
-	// 			<main>{renderSection()}</main>
-	// 		</div>
-	// 		<div>
-	// 			<Footer></Footer>
-	// 		</div>
-	// 	</div>
-	// );
-
-// }
 
 // Here we destructure our props into their own distinct variables
 function App() {
