@@ -25,7 +25,7 @@ function Footer() {
 					</li>
 					<li>
 						<a
-							href="https://twitter.com/codytheroux96"
+							href="https://twitter.com/codyisthename_"
 							target="_blank"
 						>
 							Twitter
