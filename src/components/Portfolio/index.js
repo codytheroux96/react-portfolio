@@ -12,24 +12,29 @@ function Portfolio() {
 			</div>
 
 			<div class="img-card">
-				<a href="">
+				<h2>BookNook</h2>
 					<img src={BookNook} alt="Picture of BookNook" />
-					<p>BookNook</p>
+				<a href="https://dry-bastion-57106.herokuapp.com/login">
+					This is a link to the live site for this application
 				</a>
+				<a href ="https://github.com/codytheroux96/book-nook">This is a link to the repo for this application</a>
 			</div>
 
 			<div class="img-card">
-				<a href="">
+				<h2>Team Generator</h2>
 					<img src={TeamGenerator} alt="Picture of Team Generator" />
-					<p>Team Generator</p>
+				<a href="https://github.com/codytheroux96/team-generator">
+				This is a link to the repo for this application
 				</a>
 			</div>
 
 			<div class="img-card">
-				<a href="">
+				<h2>Pantry Prepper</h2>
 					<img src={PantryPrepper} alt="Picture of Pantry Prepper" />
-					<p>Pantry Prepper</p>
+				<a href="https://kleylakb89.github.io/pantry-prepper/">
+					This is a link to the live site for this application
 				</a>
+				<a href ="https://github.com/codytheroux96/pantry-prepper">This is a link to the repo for this application</a>
 			</div>
 		</section>
 	);
