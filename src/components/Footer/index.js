@@ -4,7 +4,7 @@ function Footer() {
 	return (
 		<section>
 			<div className="center" id="about">
-				<h1 className="footer">Footer</h1>
+				<h5 className="footer">Find me on social media!</h5>
 			</div>
 			<footer className="footer">
 				<ul>
